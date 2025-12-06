@@ -35,11 +35,11 @@ def part2(data: List[str]) -> Any:
     3263827
     """
     ops = data.pop()
-    op_ixs = list(map(lambda e: e[0], filter(lambda e: e[1] != " ", enumerate(ops)))) + [len(ops)]
-    slices = list(slice(op_ixs[ix-1], op_ixs[ix]) for ix in range(1, len(op_ixs)))
+    op_ixs = [e[0] for e in filter(lambda e: e[1] != " ", enumerate(ops))] + [len(ops)]
+    slices = [slice(op_ixs[ix-1], op_ixs[ix]) for ix in range(1, len(op_ixs))]
     problems = map(lambda p: map(int, filter(None, map(lambda ns: ''.join(filter(lambda c: c != " ", ns)), zip(*p, strict=True)))), zip(*map(lambda l: map(lambda s: l[s], slices), data), strict=True))
 
-    return sum(map(lambda args: reduce(*args), zip(map(lambda o: operators[o], filter(None, re.split(r"\s+", ops))), problems, strict=True)))
+    return sum(map(lambda args: reduce(*args), zip(map(lambda o: operators[ops[o]], op_ixs[:-1]), problems, strict=True)))
 
 
 def main(input_path: Optional[Path | str]=None, verbose: bool=False) -> Tuple[Tuple[Any, float]]:
