@@ -1,0 +1,11 @@
+[package]
+name = "rust_2025_4"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+convolutions-rs = "0.3.4"
+ndarray = "0.15.6"
+relative-path = "1.9.2"
