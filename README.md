@@ -3,8 +3,44 @@
 # brandonhippe's Advent of Code Solutions for 2025
 <!-- #{(year_tiles)} -->
 <h1 align="center">
-  2025 - 0 ⭐ - Python
+  2025 - 24 ⭐ - Python
 </h1>
+<a href="python/1.py">
+  <img src=".tiles/images/2025/01.png" width="161px">
+</a>
+<a href="python/2.py">
+  <img src=".tiles/images/2025/02.png" width="161px">
+</a>
+<a href="python/3.py">
+  <img src=".tiles/images/2025/03.png" width="161px">
+</a>
+<a href="python/4.py">
+  <img src=".tiles/images/2025/04.png" width="161px">
+</a>
+<a href="python/5.py">
+  <img src=".tiles/images/2025/05.png" width="161px">
+</a>
+<a href="python/6.py">
+  <img src=".tiles/images/2025/06.png" width="161px">
+</a>
+<a href="python/7.py">
+  <img src=".tiles/images/2025/07.png" width="161px">
+</a>
+<a href="python/8.py">
+  <img src=".tiles/images/2025/08.png" width="161px">
+</a>
+<a href="python/9.py">
+  <img src=".tiles/images/2025/09.png" width="161px">
+</a>
+<a href="python/10.py">
+  <img src=".tiles/images/2025/10.png" width="161px">
+</a>
+<a href="python/11.py">
+  <img src=".tiles/images/2025/11.png" width="161px">
+</a>
+<a href="python/12.py">
+  <img src=".tiles/images/2025/12.png" width="161px">
+</a>
 <!-- #{/(year_tiles)} -->
 
 ## Solution Languages:

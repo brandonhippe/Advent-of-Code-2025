@@ -3,6 +3,30 @@
 # brandonhippe's 2025 Advent of Code Solutions in Rust
 <!-- #{(lang_tiles)} -->
 <h1 align="center">
-  2025 - 0 ⭐ - Rust
+  2025 - 16 ⭐ - Rust
 </h1>
+<a href="1/src/main.rs">
+  <img src=".tiles/rust/images/2025/01.png" width="161px">
+</a>
+<a href="2/src/main.rs">
+  <img src=".tiles/rust/images/2025/02.png" width="161px">
+</a>
+<a href="3/src/main.rs">
+  <img src=".tiles/rust/images/2025/03.png" width="161px">
+</a>
+<a href="4/src/main.rs">
+  <img src=".tiles/rust/images/2025/04.png" width="161px">
+</a>
+<a href="5/src/main.rs">
+  <img src=".tiles/rust/images/2025/05.png" width="161px">
+</a>
+<a href="6/src/main.rs">
+  <img src=".tiles/rust/images/2025/06.png" width="161px">
+</a>
+<a href="7/src/main.rs">
+  <img src=".tiles/rust/images/2025/07.png" width="161px">
+</a>
+<a href="8/src/main.rs">
+  <img src=".tiles/rust/images/2025/08.png" width="161px">
+</a>
 <!-- #{/(lang_tiles)} -->
